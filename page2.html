@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HireGL Project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="script/script.js"></script>
+  <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+  <div class="row content">
+    <div class="col-sm-2 mb-4">
+      <div id="logo1"><img src="img/hiregl_logo.png"></div>
+      <ul class="nav nav-pills nav-stacked">
+        
+        <li><a href="#"><div class="clr"><span class="glyphicon glyphicon-save-file" style="color: gray"></span> My Interviews</div></a></li>
+        <li><a href="#"><div class="clr"><span class="glyphicon glyphicon-plus" style="color: gray"></span> New Interviews</div></a></li>
+      </ul><br>
+    </div>
+
+    <div class="form-row">
+    <div class="col-md-9 mb-5"><div id="editInterview">Edit Interview</div></div>
+  </div>
+    <div class="col-sm-9">
+      
+
+<div class="table-responsive-md">
+  <table class="table">
+
+      <thead>
+        <th scope="col">CANDIDATE</th>
+        <th scope="col">INTERVIEW</th>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td><div class="size">Name</div><input type="text" name="name" placeholder="Kitty"></td>
+          <td><div class="size">Date</div><input type="date" placeholder="8.12.2016"></td>
+        </tr>
+
+        <tr>
+          <td><div class="size">Surname</div><input type="text" placeholder="Forman"></td>
+          <td><div class="size">Time</div><input type="text" placeholder="14:00"></td>
+        </tr>
+
+        <tr>
+        <td><div class="size">Phone</div><input type="text" placeholder="18 822 221"></td>
+        <td><div class="size">Location</div>
+      <select class="form-control">
+        <option>Kosice</option>
+        <option>Bratislava</option>
+        <option>Žilina</option>
+        <option>Trnava</option>
+      </select></td>
+      </tr>
+
+      <tr>
+        <td><div class="size">Email</div><input type="text" placeholder="kitty@forman.com"></td>
+        <td><div class="size">Room</div>  <select class="form-control">
+        <option>Mordor</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+      </select></td>
+      </tr></td>
+      </tr>
+
+      <tr>
+        <td><div class="size">Skype</div><input type="text" placeholder="kitty252"></td>
+        <td><div class="size">Asssigned Person</div>  <select class="form-control">
+        <option>a</option>
+        <option>b</option>
+        <option>c</option>
+        <option>d</option>
+      </select></td>
+      </tr></td>
+      </tr>
+
+      <tr>
+        <td><div class="size">Position</div><input type="text"></td>
+        <td><div class="size">Notes</div><textarea class="form-control" rows="4" id="notes"></textarea></td>
+      </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+  <footer class="site-footer"><div id="bgbtn"><div id="cinterview"> <button type="button" class="btn btn-success">CLOSE INTERVIEW</button></div>
+  <div id="save"> <button type="button" class="btn btn-success">SAVE</button></div>
+  <div id="cancel"> <button type="button" class="btn btn-success">CANCEL</button></div></footer>
+
+
+</body>
+</html>

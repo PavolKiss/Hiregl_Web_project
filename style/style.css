@@ -1,3 +1,8 @@
+#body1{
+    background-color: #f2f2f2;
+    margin-left: 25vh;
+}
+
 #logo1{
   background-color: #CEDC51;
   text-align: center;
@@ -6,9 +11,20 @@
   padding: 3vh;
 }
 
+#logo2{
+    background-color: #CEDC51;
+    padding: 2vh;
+    position: static;
+}
+
+#padd{
+    margin-top: 10vh;
+}
+
 ::placeholder {
     color: black;
     opacity: 1; /* Firefox */
+    font-size: 15px;
 }
 
 ul{
@@ -46,6 +62,16 @@ input[type=textarea],#notes {
 }
 
 input[type=date] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #E0E4A5;
+    margin-top:8px;
+}
+
+input[type=password] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -97,4 +123,15 @@ input[type=date] {
 .clr{
     color: black;
     font-weight: bold;
+}
+
+.cler{
+    font-size: 13.5px;
+    color: gray;
+}
+
+#error{
+    color: red;
+    text-align: left;
+    font-size: 13px;
 }
